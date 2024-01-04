@@ -1,0 +1,20 @@
+# .gitignore for Python projects
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+venv*/
+
+# IDE-specific files
+.idea/
+*.pyc
+
+# Miscellaneous
+.DS_Store
+*.log
+
+# Ignore local configuration files
+.env
