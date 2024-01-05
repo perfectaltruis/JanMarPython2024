@@ -1,0 +1,91 @@
+In this chapter I learned how to
+install Python on My local machine Lenovo ThinkPad X1 carbon
+running Kali linux, I also learned how to install a text editor
+But I use Pycharm text editor. I also learned how to check
+if python is installed on my kali linux machine.
+
+TO HELP YOU GET STARTED TOO PLEASE FOLLOW THIS STEPS:
+1. PYTHON VERSION:
+        Python differ slightly on different OS, so we need
+        to check its version before installing it on our local
+        machine:
+            a: in linux:
+                To see if python is installed with a latest
+                version on your linux machine, run the following
+                command on your terminal.
+
+                python --version
+
+                if it is installed your should see something like this
+                Python 3.11.4
+
+                this indicates the version of python you're currently using
+                and in my case it was version 3.11.4. Keep in mind that it may
+                be different to your version as programming languages merges
+                every day.
+
+                But also you may need to specify the version of python that you
+                want to confirm, for instance if i could want to see the python version 2
+                in my kali linux(linux in general) I could simply run the command bellow
+
+                python2 --version
+
+                and the result will be something like this:
+                Python 2.7.18 Indicating that I have python2 of 2.7.18 version
+
+                But als you may just open your terminal and run this command:
+                python3
+                if it will generate a python prompt like this:
+
+                [Python 3.11.4 (main, Jun  7 2023, 10:13:09) [GCC 12.2.0] on linux
+                Type "help", "copyright", "credits" or "license" for more information.
+                >>> ] "without square brackets" The python is installed on your system.
+
+                To exit, type: exit()
+
+            b: in Window:
+                First, check whether Python is installed on your system. Open a command
+                window by entering command into the Start menu or by holding down the
+                shift key while right-clicking on your desktop and selecting Open com-
+                mand window here from the menu. In the terminal window, enter python in
+                lowercase. If you get a Python prompt (>>>) in response, Python is installed
+                on your system. If you see an error message telling you that python is not a
+                recognized command, Python isn’t installed.
+
+                Run python from terminal session:
+
+                C:\> python
+                    Python 3.7.2 (v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit
+                    (AMD64)] on win32
+                    Type "help", "copyright", "credits" or "license" for more information.
+                    >>>
+
+                    To exit type:
+
+                    exit()
+                    you can read a README.md File for better information.
+
+2: PYTHON INSTALLATION:
+    if python is not installed on your machine you need to follow the steps outlined on the README.md file
+    so that you get a correct procedures based on your Operating System.
+
+3: TEXT EDITOR INSTALLATION:
+    Install a text editor as well, You may choose one of your favorite but to me it is pycharm. to install it
+    just read a README.md File to see how you can install it.
+
+4: FINAL TOUCHES:
+    Now if everything is okay, open your text editor create a file ending with .py extension and write the
+    following on it.
+
+      print("Hello World")
+
+      in Pycharm Press Shift + F10 to see the output on the pycharm console.
+      to me it was something like this:
+
+            /usr/bin/python3.11 /home/perfect/PycharmProjects/JanMarPython2024/PythonCrashCourse/Chapter: 1/hello_world.py
+            Hello World
+
+            Process finished with exit code 0
+
+            Focus on the output on your text :"Hello World"
+
